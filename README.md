@@ -69,22 +69,22 @@ STUDENT_RESULT_SYSTEM/
 │   └── package.json
 │
 └── frontend/
-├── src/
-│   ├── components/
-│   │   ├── ui/              # Reusable UI components
-│   │   └── ...
-│   ├── context/
-│   │   └── AuthContext.jsx  # Authentication context
-│   ├── pages/
-│   │   ├── Login.jsx
-│   │   ├── StudentDashboard.jsx
-│   │   ├── TeacherDashboard.jsx
-│   │   └── AdminDashboard.jsx
-│   ├── services/
-│   │   └── api.js           # API service layer
-│   ├── App.jsx
-│   └── main.jsx
-└── package.json
+    ├── src/
+    │   ├── components/
+    │   │   ├── ui/                  # Reusable UI components
+    │   │   └── ...                  # Other shared components
+    │   ├── context/
+    │   │   └── AuthContext.jsx      # Authentication context
+    │   ├── pages/
+    │   │   ├── Login.jsx
+    │   │   ├── StudentDashboard.jsx
+    │   │   ├── TeacherDashboard.jsx
+    │   │   └── AdminDashboard.jsx
+    │   ├── services/
+    │   │   └── api.js               # API service layer
+    │   ├── App.jsx
+    │   └── main.jsx
+    └── package.json
 
 
 ## 🗄️ Database Schema
