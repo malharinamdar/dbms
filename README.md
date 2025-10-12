@@ -111,8 +111,3 @@ STUDENT_RESULT_SYSTEM/
 - MySQL (v8 or higher)
 - npm or yarn
 
-### Step 1: Clone the Repository
-```bash
-git clone https://github.com/malharinamdar/dbms.git
-cd dbms
-```
