@@ -49,7 +49,6 @@ The Student Result Management System is a full-stack web application designed to
 - **bcrypt.js** - Password hashing
 
 ## 📁 Project Structure
-
 STUDENT_RESULT_SYSTEM/
 │
 ├── backend/
@@ -85,7 +84,6 @@ STUDENT_RESULT_SYSTEM/
     │   ├── App.jsx
     │   └── main.jsx
     └── package.json
-
 
 ## 🗄️ Database Schema
 
