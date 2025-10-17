@@ -31,7 +31,8 @@ router.get('/teachers', authenticate, authorize('admin'), teacherController.getA
 router.delete('/teachers/assignments/:assignmentId', authenticate, authorize('admin'), teacherController.removeAssignment);
 
 // Admin Routes
-router.get('/admin/students', authenticate, authorize('admin'), adminController.getAllStudents);
+// Admin Routes
+router.get('/admin/students', authenticate, authorize('admin', 'teacher'), adminController.getAllStudents);
 router.post('/admin/users', authenticate, authorize('admin'), adminController.addUser);
 router.get('/admin/subjects', authenticate, authorize('admin', 'teacher'), adminController.getAllSubjects);
 router.post('/admin/subjects', authenticate, authorize('admin'), adminController.addSubject);
